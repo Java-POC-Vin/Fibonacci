@@ -1,18 +1,29 @@
-## Getting Started
+## Fibonacci
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Fibonacci sequence is e in which each number is the sum of the two preceding ones.
+This project experiments with separating classes for organizing functions in Java.
 
-## Folder Structure
+## How to use
 
-The workspace contains two folders by default, where:
+1. Go to ./src/App.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Change the follow variable value to a desired number of sequences:
+```
+int seq = 10;
+```
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. Run the script.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+It will print in console the sequence amount in a Fibonacci sequence.
 
-## Dependency Management
+## Output example
+```java
+// Output example for sequence = 5
+0 1 1 2 3
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+// Output example for sequence = 10
+0 1 1 2 3 5 8 13 21 34
+
+// Output example for sequence = 20
+0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181
+```
